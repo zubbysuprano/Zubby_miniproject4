@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Website for a gym center</title>
+	<link href="bootstrap/css/bootstrap.css" rel="stylesheet" type="text/css">
+
+		
+		<style type="text/css">
+			
+			body{
+				background-color: ghostwhite;
+			}
+				*{
+				font-family: corbel arial sans-serif;
+			}
+			div{
+				min-height:100px;
+/*				border:2px solid red;*/
+			}
+			.navlink{
+				justify-content: flex-end;
+			}
+			.navbar{
+				justify-content: center;
+			}
+			.ourservices{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.serviceboxes h2,p{
+				text-align: center;
+			}
+			.socials{
+				display: flex;
+				justify-content: space-around;
+				padding: 5px;
+				border-radius: 5px;
+			}
+			.workinghrs{
+				display: flex;
+			}
+			.quicklinks li a{
+				text-decoration: none;
+				color:white;
+			}
+			li{
+					list-style-type: none;
+			}
+			.copy{
+				display: flex;
+				justify-content: center;
+				align-items: flex-end;
+			}
+			.nava li a{
+					color:white;
+			}
+			.form{
+				text-align: center;
+			}
+			.register{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.row-link{
+				border-radius: 20px;
+			}
+			.locationcolor li a{
+					color: black;
+			}
+			.arrange h2,h1,p{
+				text-align: center;
+			}
+			h3{
+				text-align: center;
+			}
+			.phone{
+				text-align: center;
+			}
+			.visit{
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.firstlast{
+				display: flex;
+				justify-content: flex-end;
+			}
+			.subject{
+				display: flex;
+				justify-content: center;
+			}
+			.textarea{
+			margin-left: 330px;
+			}
+			.send{
+				margin-left: 450px;
+			}
+			#viaemail{
+				text-weight:strong;
+				color: white;
+			}
+			#customer{
+				text-weight:strong;
+				color: white;
+			}
+
+			
+
+
+		</style>
+			
+</head>
+<body>
+	<div class="container">
+		<div class="row navbar">
+			<div class="col-md-12">
+				<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+    	
+    		<h1 class="text-light">WELL-fitness</h1>
+    
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navlink" id="navbarNavDropdown">
+      <ul class="navbar-nav nava">
+        <li class="nav-item"> 
+          <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">CONTACT US</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            LOCATIONS
+          </a>
+          <ul class="dropdown-menu locationcolor" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="location.html">Lagos</a></li>
+            <li><a class="dropdown-item" href="location.html">Abuja</a></li>
+            <li><a class="dropdown-item" href="location.html">Portharcourt</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+			</div>
+		</div>
+<div class="row">
+		<div class="col-md-12 visit">
+			<h6>You Can Visit Any Of Our Branches In Lagos,Abuja and Portharcourt.</h6>
+		</div>
+</div>
+<div class="row">
+		<div class="col-md-6">
+			<p class="bg-danger" id=viaemail>Send Us a Mail via:</p><br>
+			 <h3>wellfitness@gmail.com</h3>
+			 <h3>wellfitness/support@mail.ng</h3>
+		</div>
+		<div class="col-md-6">
+			<p class="bg-danger" id="customer">Our Customer care lines:</p><br>
+			<h3 class="phone">08131577957</h3>
+			<h3 class="phone">07061946423</h3>
+		</div>
+</div>
+<div class="row mt-5 bg-secondary text-light">
+	<div class="col-md-12">
+		<h1 class="text-dark">CONTACT FORM</h1>
+		<p>Fill out the form below and one of our friendly Team Members will get back to you shortly</p>
+	</div>
+	<div class="row">
+		<div class="col-md-6 firstlast">
+			<form>
+			<label class="form-label">First Name</label><br>
+			<input type="text" placeholder="Enter First Name" name="firstname">
+			</form>
+		</div>
+		<div class="col-md-6">
+			<form>
+			<label class="form-label">Last Name</label><br>
+			<input type="text" placeholder="Enter Last Name" name="Lastname">
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 firstlast">
+			<form>
+			<label class="form-label">Email</label><br>
+			<input type="text" placeholder="Enter Your Email" name="Email">
+			</form>
+		</div>
+		<div class="col-md-6">
+			<form>
+			<label class="form-label">Phone</label><br>
+			<input type="text" placeholder="Enter Phone Number" name="phone">
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-12 subject">
+			<form>
+			<label class="form-label">Subject</label><br>
+			<input type="text" placeholder="Enter Your Subject" name="subject">
+			</form>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-5 textarea">
+			<label for="form-label">Message</label><br>
+  		<textarea class="form-control"  placeholder="Enter your message here" id="floatingTextarea"></textarea>
+  		</div>
+	</div>
+	<div class="row">
+		<div class="col-md-6 send">
+			<button class="btn btn-success btn-lg">Send Your Message</button>
+		</div>
+	</div>
+			
+</div>
+
+
+
+
+
+
+
+		<div class="row">
+				<div class="col-md-12">
+						<div class="register">
+					<button class="btn btn-danger" type="button" data-bs-toggle="offcanvas" data-bs-target="#register" aria-controls="offcanvasRight">REGISTER</button>
+				</div>
+				</div>
+		</div>
+
+		<div class="row bg-dark text-light rowlink">
+			<div class="col-md-3 py-md-4">
+					
+						
+							<div class="mt-md-5">
+								<h1>WELL-fitness</h1>
+							</div>
+							<div class="mt-md-3">
+							<div>
+								<p>We are a 360-health and wellness company and the leading and fastest-growing fitness chain. </p>
+							</div>
+							<div class="socials mb-md-5 mt-md-3 bg-danger">
+									<a href="#"> <img  class="d-block w-100" src="instagram.png" alt="instagram"> </a> <br><br>
+									<a href="#"> <img  class="d-block w-100" src="twitter.png" alt="twitter"> </a> <br><br>
+									<a href="#"> <img  class="d-block w-100" src="facebook.png" alt="facebook"> </a>
+							</div>
+						</div>
+						
+				
+			</div>
+
+
+			<div class="col-md-3 py-md-4">
+				<div class="mt-md-5">
+					<h2 class="text-danger">QUICK LINKS</h2>
+				</div>
+				<div class="mt-md-3">
+					<ul class="quicklinks">
+						<li><a href="index.html">HOME</a></li><br><br>
+						<li><a href="about.html">ABOUT</a></li><br><br>
+						<li><a href="contact.html">CONTACT US</a></li><br><br>
+						<li><a href="location.html">LOCATIONS</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="col-md-3 py-md-4">
+				<div class="row">
+					<div class="mt-md-5 mx-md-auto">
+						<h2 class="text-danger">WORKING HOURS</h2>
+					</div>
+					<div class="workinghrs mt-md-3">
+						<div>
+							<h6>MONDAY-FRIDAY</h6><br><br>
+							<h6>SATURDAY</h6><br><br>
+							<h6>PUBLIC HOLIDAYS</h6><br><br>
+							<h6>JAN 1,DEC 25 & 26</h6>
+						</div>
+						<div class="ms-md-3">
+							<h6>6AM-9PM</h6><br><br>
+							<h6>7AM-8PM</h6><br><br>
+							<h6>7AM-8PM</h6><br><br>
+							<h6>CLOSED</h6>
+						</div>
+							
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 py-md-4">
+				<div>
+					<div class="mt-md-5">
+					<h6 class="text-LIGHT">FOR LATEST NEWS AND UPDATES</h6>
+					<h4 class="text-danger">SUBSCRIBE TO OUR<br> NEWSLETTER</h4>
+				</div>
+				<div class="mt-md-3 form">
+					<input type="text" name="name" placeholder="Your Name" class="text-control"><br><br>
+					<input type="email" name="Email" placeholder="example@email.com" class="text-control"><br><br>
+					<button class="btn bg-danger text-light" type="button">SUBSCRIBE</button>
+				</div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-dark text-light">
+			<div class="col-md-12">
+				<div class="copy">
+					<p>&#169 2024 Z-FITNESS CENTRE LTD. ALL RIGHTS RESERVED.</p>
+				</div>
+			</div>
+		</div>
+
+
+		</div>
+
+
+		<div class="offcanvas offcanvas-end" tabindex="-1" id="register" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel">FILL THE FORM BELOW TO REGISTER</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <input type="text" name="name" placeholder="Full Name" class="text-control"><br><br>
+		<input type="email" name="Email" placeholder="example@email.com" class="text-control"><br><br>
+		<input type="text" name="Password" placeholder="Password" class="text-control"><br><br>
+		<button class="btn bg-secondary text-light" type="button">REGISTER</button>
+  </div>
+</div>
+		<script src="bootstrap/js/bootstrap.bundle.js" type="text/javascript"></script>
+	
+
+</body>
+</html>
